@@ -1,0 +1,388 @@
+<!DOCTYPE html><html><head><meta name="x-poe-datastore-behavior" content="local_only"><meta http-equiv="Content-Security-Policy" content="default-src 'self' 'unsafe-inline' 'unsafe-eval' data: blob: https://cdnjs.cloudflare.com https://cdn.jsdelivr.net https://code.jquery.com https://unpkg.com https://d3js.org https://threejs.org https://cdn.plot.ly https://stackpath.bootstrapcdn.com https://maps.googleapis.com https://cdn.tailwindcss.com https://ajax.googleapis.com https://kit.fontawesome.com https://cdn.datatables.net https://maxcdn.bootstrapcdn.com https://code.highcharts.com https://tako-static-assets-production.s3.amazonaws.com https://www.youtube.com https://fonts.googleapis.com https://fonts.gstatic.com https://pfst.cf2.poecdn.net https://puc.poecdn.net https://i.imgur.com https://wikimedia.org https://*.icons8.com https://*.giphy.com https://picsum.photos https://images.unsplash.com; frame-src 'self' https://www.youtube.com https://trytako.com; child-src 'self'; manifest-src 'self'; worker-src 'self'; upgrade-insecure-requests; block-all-mixed-content;"><meta http-equiv="x-dns-prefetch-control" content="off"><script src="https://puc.poecdn.net/authenticated_preview_page/standard.3ef2c256959faf5a756d.js"></script>
+    <meta charset="utf-8">
+    <title>Poe</title>
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+  <script src="https://puc.poecdn.net/authenticated_preview_page/disableWebRTC.9710cebe07429a9e8e06.js"></script><meta name="x-poe-allow-downloads" content="true"><meta name="x-poe-datastore-behavior" content="disabled"><script src="https://puc.poecdn.net/authenticated_preview_page/tw.50ec1b0612bf5b0c30a5.js"></script><script src="https://puc.poecdn.net/authenticated_preview_page/deps.faccd16000d314dc16d5.js"></script><script src="https://puc.poecdn.net/authenticated_preview_page/exports.b0f0f482cdeb5302b0b9.js"></script><script src="https://puc.poecdn.net/authenticated_preview_page/renderer.75c73ae6b4235f62945a.js"></script><script>Object.defineProperty(exports, "__esModule", {value: true}); function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }var _react = require('react'); var _react2 = _interopRequireDefault(_react);
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+var _lucidereact = require('lucide-react');
+var _framermotion = require('framer-motion');
+
+const Portfolio = () => {
+  const [isMenuOpen, setIsMenuOpen] = _react.useState.call(void 0, false);
+
+  const data = {
+    name: "Sathakathulla Sarbudeen",
+    title: "Associate Architect | Cloud & DevOps Specialist",
+    contact: {
+      email: "sathak318@gmail.com",
+      phone: "+974-74050714",
+      location: "Doha, Qatar",
+      linkedin: "linkedin.com/in/sathaks",
+      github: "github.com/sathak"
+    },
+    summary: "Strategic and results-driven Microsoft Certified Azure Developer with 16 years of experience in enterprise software engineering, cloud-native architecture, and technical governance. Proven track record of architecting high-scale solutions supporting 1M+ users while significantly reducing operational overhead and latency. Expert in bridging the gap between development and operations through ARM-driven infrastructure and AI-assisted development.",
+    skills: [
+      { category: "Cloud Ecosystem", icon: _react2.default.createElement(_lucidereact.Cloud, { className: "w-5 h-5" ,} ), items: ["Microsoft Azure", "Functions", "App Services", "Cosmos DB", "Azure SQL", "ARM Templates"] },
+      { category: "Backend", icon: _react2.default.createElement(_lucidereact.Cpu, { className: "w-5 h-5" ,} ), items: [".NET Core", "ASP.NET", "RESTful APIs", "Microservices", "GraphQL", "Python"] },
+      { category: "Frontend", icon: _react2.default.createElement(_lucidereact.Code2, { className: "w-5 h-5" ,} ), items: ["Angular", "React.js", "TypeScript", "HTML5", "CSS3", "JavaScript"] },
+      { category: "DevOps & AI", icon: _react2.default.createElement(_lucidereact.Layers, { className: "w-5 h-5" ,} ), items: ["Azure DevOps", "Docker", "Kubernetes", "Git", "GitHub Copilot", "SonarQube"] },
+      { category: "Observability", icon: _react2.default.createElement(_lucidereact.Activity, { className: "w-5 h-5" ,} ), items: ["Azure Monitor", "Application Insights", "ELK Stack", "Grafana", "Dynatrace"] },
+      { category: "Databases", icon: _react2.default.createElement(_lucidereact.Database, { className: "w-5 h-5" ,} ), items: ["Cosmos DB", "Azure SQL", "MongoDB", "Oracle", "SQL Server", "Redis"] },
+    ],
+    experience: [
+      {
+        company: "Virtusa, Doha, Qatar",
+        role: "Associate Architect",
+        period: "2022 – Present",
+        points: [
+          "Architected and deployed a high-availability cloud application serving 1M+ users, achieving a 40% reduction in latency.",
+          "Engineered a serverless architecture utilizing Azure Functions, resulting in a direct operational cost saving of $50K/year.",
+          "Spearheaded the adoption of GitHub Copilot, increasing developer productivity by ~30%.",
+          "Designed and owned end-to-end multi-stage CI/CD pipelines (Dev → SIT → UAT → Stage → Prod) in Azure DevOps.",
+          "Developed repeatable infrastructure as code (IaC) using ARM Templates for environment parity.",
+          "Established a real-time observability framework reducing incident resolution time (MTTR) by 30%."
+        ]
+      },
+      {
+        company: "Digixtreme Solutions LLC, UAE",
+        role: "Technical Lead",
+        period: "2021 – 2022",
+        points: [
+          "Orchestrated the migration of on-premises infrastructure to Azure, reducing server overhead costs by 30%.",
+          "Optimized application performance, reducing load times by 3 seconds and increasing task completion rates by 20%.",
+          "Standardized deployment workflows by implementing robust CI/CD pipelines for .NET and Angular stacks."
+        ]
+      },
+      {
+        company: "Virtusa, Doha, Qatar",
+        role: "Senior Consultant",
+        period: "2018 – 2021",
+        points: [
+          "Delivered enterprise-grade applications using ASP.NET MVC and Angular, focusing on modularity and scalability.",
+          "Enhanced system throughput by optimizing complex database queries, resulting in a 25% increase in performance.",
+          "Directed cross-functional teams to deliver critical solutions within tight deadlines."
+        ]
+      },
+      {
+        company: "NAVCON Advanced System, UAE",
+        role: "Application Developer",
+        period: "2016 – 2018",
+        points: [
+          "Developed full-stack web applications using .NET Framework and Angular, integrating third-party APIs.",
+          "Upheld rigorous code quality standards by conducting comprehensive code reviews."
+        ]
+      },
+      {
+        company: "Various Companies, India",
+        role: "Senior SE / Software Engineer",
+        period: "2011 – 2015",
+        points: [
+          "Engineered .NET/Angular applications across healthcare and enterprise domains.",
+          "Optimized SQL Server performance and delivered responsive UIs to improve end-user experience."
+        ]
+      }
+    ],
+    projects: [
+      {
+        title: "Real-Time Monitoring System",
+        desc: "Implemented Azure Monitor + Application Insights; reduced incident resolution time by 30%.",
+        stack: [".NET Core", "Angular", "Azure Monitor"]
+      },
+      {
+        title: "Serverless E-Commerce Engine",
+        desc: "Architected a system handling 10,000+ daily transactions using Azure Functions and Cosmos DB.",
+        stack: [".NET Core", "Angular", "Cosmos DB"]
+      },
+      {
+        title: "High-Scale Cloud App",
+        desc: "Delivered a high-availability application for 1M+ users with a 40% latency reduction.",
+        stack: [".NET Core", "Angular", "Azure App Service"]
+      }
+    ],
+    education: "M.Sc. in Software Engineering, Anna University, Chennai | 2011",
+    certification: "Microsoft Certified: Azure Developer Associate"
+  };
+
+  const navLinks = [
+    { name: "About", href: "#about" },
+    { name: "Skills", href: "#skills" },
+    { name: "Experience", href: "#experience" },
+    { name: "Projects", href: "#projects" },
+  ];
+
+  return (
+    _react2.default.createElement('div', { className: "min-h-screen bg-slate-50 text-slate-900 font-sans selection:bg-blue-100 selection:text-blue-700"     ,}
+      /* Navigation */
+      , _react2.default.createElement('nav', { className: "fixed top-0 w-full bg-white/80 backdrop-blur-md z-50 border-b border-slate-200"       ,}
+        , _react2.default.createElement('div', { className: "max-w-6xl mx-auto px-6 h-16 flex items-center justify-between"      ,}
+          , _react2.default.createElement(_framermotion.motion.span, { 
+            initial: { opacity: 0 }, 
+            animate: { opacity: 1 },
+            className: "text-xl font-bold bg-gradient-to-r from-blue-700 to-indigo-600 bg-clip-text text-transparent"      ,}
+, "SS."
+
+          )
+
+          /* Desktop Nav */
+          , _react2.default.createElement('div', { className: "hidden md:flex gap-8"  ,}
+            , navLinks.map(link => (
+              _react2.default.createElement('a', { key: link.name, href: link.href, className: "text-sm font-medium text-slate-600 hover:text-blue-600 transition-colors"    ,}
+                , link.name
+              )
+            ))
+          )
+
+          /* Mobile Toggle */
+          , _react2.default.createElement('button', { className: "md:hidden p-2" , onClick: () => setIsMenuOpen(!isMenuOpen),}
+            , isMenuOpen ? _react2.default.createElement(_lucidereact.X, null ) : _react2.default.createElement(_lucidereact.Menu, null )
+          )
+        )
+
+        /* Mobile Menu */
+        , isMenuOpen && (
+          _react2.default.createElement(_framermotion.motion.div, { 
+            initial: { opacity: 0, y: -10 }, 
+            animate: { opacity: 1, y: 0 },
+            className: "md:hidden bg-white border-b border-slate-200 px-6 py-4 flex flex-col gap-4"        ,}
+
+            , navLinks.map(link => (
+              _react2.default.createElement('a', { key: link.name, href: link.href, onClick: () => setIsMenuOpen(false), className: "text-slate-600 font-medium" ,}
+                , link.name
+              )
+            ))
+          )
+        )
+      )
+
+      /* Hero Section */
+      , _react2.default.createElement('section', { id: "about", className: "pt-32 pb-20 px-6"  ,}
+        , _react2.default.createElement('div', { className: "max-w-6xl mx-auto grid md:grid-cols-2 gap-12 items-center"     ,}
+          , _react2.default.createElement(_framermotion.motion.div, { 
+            initial: { opacity: 0, x: -20 }, 
+            whileInView: { opacity: 1, x: 0 }, 
+            viewport: { once: true },}
+
+            , _react2.default.createElement('h1', { className: "text-4xl md:text-6xl font-extrabold text-slate-900 leading-tight"    ,}
+              , data.name
+            )
+            , _react2.default.createElement('p', { className: "text-xl md:text-2xl text-blue-600 font-semibold mt-4"    ,}
+              , data.title
+            )
+            , _react2.default.createElement('p', { className: "text-slate-600 mt-6 text-lg leading-relaxed"   ,}
+              , data.summary
+            )
+
+            , _react2.default.createElement('div', { className: "flex flex-wrap gap-4 mt-8"   ,}
+              , _react2.default.createElement('a', { href: `mailto:${data.contact.email}`, className: "flex items-center gap-2 bg-blue-600 text-white px-5 py-2.5 rounded-full font-medium hover:bg-blue-700 transition-all shadow-lg shadow-blue-200"            ,}
+                , _react2.default.createElement(_lucidereact.Mail, { className: "w-4 h-4" ,} ), " Contact Me"
+              )
+              , _react2.default.createElement('div', { className: "flex gap-3" ,}
+                , _react2.default.createElement('a', { href: `https://${data.contact.linkedin}`, className: "p-2.5 rounded-full border border-slate-200 text-slate-600 hover:text-blue-600 hover:border-blue-600 transition-all"       ,}
+                  , _react2.default.createElement(_lucidereact.Linkedin, { className: "w-5 h-5" ,} )
+                )
+                , _react2.default.createElement('a', { href: `https://${data.contact.github}`, className: "p-2.5 rounded-full border border-slate-200 text-slate-600 hover:text-slate-900 hover:border-slate-900 transition-all"       ,}
+                  , _react2.default.createElement(_lucidereact.Github, { className: "w-5 h-5" ,} )
+                )
+              )
+            )
+          )
+
+          , _react2.default.createElement(_framermotion.motion.div, { 
+            initial: { opacity: 0, scale: 0.9 }, 
+            whileInView: { opacity: 1, scale: 1 }, 
+            viewport: { once: true },
+            className: "bg-white p-8 rounded-3xl shadow-xl border border-slate-100 relative overflow-hidden"       ,}
+
+            , _react2.default.createElement('div', { className: "absolute top-0 right-0 w-32 h-32 bg-blue-50 rounded-full -mr-16 -mt-16 blur-3xl"         ,})
+            , _react2.default.createElement('div', { className: "space-y-6 relative z-10"  ,}
+              , _react2.default.createElement('div', { className: "flex items-center gap-4 text-slate-600"   ,}
+                , _react2.default.createElement(_lucidereact.MapPin, { className: "w-5 h-5 text-blue-600"  ,} )
+                , _react2.default.createElement('span', null, data.contact.location)
+              )
+              , _react2.default.createElement('div', { className: "flex items-center gap-4 text-slate-600"   ,}
+                , _react2.default.createElement(_lucidereact.Phone, { className: "w-5 h-5 text-blue-600"  ,} )
+                , _react2.default.createElement('span', null, data.contact.phone)
+              )
+              , _react2.default.createElement('div', { className: "flex items-center gap-4 text-slate-600"   ,}
+                , _react2.default.createElement(_lucidereact.Mail, { className: "w-5 h-5 text-blue-600"  ,} )
+                , _react2.default.createElement('span', null, data.contact.email)
+              )
+              , _react2.default.createElement('div', { className: "pt-6 border-t border-slate-100"  ,}
+                , _react2.default.createElement('div', { className: "flex items-center gap-3 text-slate-800 font-semibold"    ,}
+                  , _react2.default.createElement(_lucidereact.Award, { className: "w-5 h-5 text-yellow-500"  ,} )
+                  , _react2.default.createElement('span', null, data.certification)
+                )
+              )
+            )
+          )
+        )
+      )
+
+      /* Skills Section */
+      , _react2.default.createElement('section', { id: "skills", className: "py-20 bg-slate-100 px-6"  ,}
+        , _react2.default.createElement('div', { className: "max-w-6xl mx-auto" ,}
+          , _react2.default.createElement('div', { className: "text-center mb-16" ,}
+            , _react2.default.createElement('h2', { className: "text-3xl font-bold text-slate-900"  ,}, "Technical Core Competencies"  )
+            , _react2.default.createElement('div', { className: "w-20 h-1.5 bg-blue-600 mx-auto mt-4 rounded-full"     ,})
+          )
+
+          , _react2.default.createElement('div', { className: "grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6"    ,}
+            , data.skills.map((skill, idx) => (
+              _react2.default.createElement(_framermotion.motion.div, { 
+                key: idx,
+                initial: { opacity: 0, y: 20 },
+                whileInView: { opacity: 1, y: 0 },
+                viewport: { once: true },
+                transition: { delay: idx * 0.1 },
+                className: "bg-white p-6 rounded-2xl shadow-sm border border-slate-200 hover:shadow-md transition-shadow group"        ,}
+
+                , _react2.default.createElement('div', { className: "flex items-center gap-3 mb-4"   ,}
+                  , _react2.default.createElement('div', { className: "p-2 bg-blue-50 text-blue-600 rounded-lg group-hover:bg-blue-600 group-hover:text-white transition-colors"      ,}
+                    , skill.icon
+                  )
+                  , _react2.default.createElement('h3', { className: "font-bold text-slate-800" ,}, skill.category)
+                )
+                , _react2.default.createElement('div', { className: "flex flex-wrap gap-2"  ,}
+                  , skill.items.map((item, i) => (
+                    _react2.default.createElement('span', { key: i, className: "px-3 py-1 bg-slate-100 text-slate-600 text-xs font-medium rounded-full border border-slate-200"        ,}
+                      , item
+                    )
+                  ))
+                )
+              )
+            ))
+          )
+        )
+      )
+
+      /* Experience Section */
+      , _react2.default.createElement('section', { id: "experience", className: "py-20 px-6" ,}
+        , _react2.default.createElement('div', { className: "max-w-4xl mx-auto" ,}
+          , _react2.default.createElement('div', { className: "text-center mb-16" ,}
+            , _react2.default.createElement('h2', { className: "text-3xl font-bold text-slate-900"  ,}, "Professional Experience" )
+            , _react2.default.createElement('div', { className: "w-20 h-1.5 bg-blue-600 mx-auto mt-4 rounded-full"     ,})
+          )
+
+          , _react2.default.createElement('div', { className: "space-y-12 relative before:absolute before:inset-0 before:ml-5 before:-translate-x-px md:before:mx-auto md:before:translate-x-0 before:h-full before:w-0.5 before:bg-gradient-to-b before:from-transparent before:via-slate-300 before:to-transparent"             ,}
+            , data.experience.map((exp, idx) => (
+              _react2.default.createElement(_framermotion.motion.div, { 
+                key: idx,
+                initial: { opacity: 0, x: idx % 2 === 0 ? -20 : 20 },
+                whileInView: { opacity: 1, x: 0 },
+                viewport: { once: true },
+                className: "relative flex items-center justify-between md:justify-normal md:text-left"     ,}
+
+                /* Timeline Dot */
+                , _react2.default.createElement('div', { className: "flex items-center justify-center w-10 h-10 rounded-full border-4 border-white bg-blue-600 text-white shadow shrink-0 md:absolute md:left-0 md:translate-x-[-20px] z-10"               ,}
+                  , _react2.default.createElement(_lucidereact.ChevronRight, { className: "w-5 h-5" ,} )
+                )
+
+                , _react2.default.createElement('div', { className: "w-full md:w-[calc(100%-40px)] md:ml-10 bg-white p-6 rounded-2xl shadow-sm border border-slate-200"        ,}
+                  , _react2.default.createElement('div', { className: "flex flex-col md:flex-row md:items-center justify-between mb-4 gap-2"      ,}
+                    , _react2.default.createElement('div', null
+                      , _react2.default.createElement('h3', { className: "text-xl font-bold text-slate-900"  ,}, exp.company)
+                      , _react2.default.createElement('p', { className: "text-blue-600 font-medium" ,}, exp.role)
+                    )
+                    , _react2.default.createElement('span', { className: "text-sm font-semibold text-slate-400 bg-slate-100 px-3 py-1 rounded-full whitespace-nowrap"       ,}
+                      , exp.period
+                    )
+                  )
+                  , _react2.default.createElement('ul', { className: "space-y-3",}
+                    , exp.points.map((point, i) => (
+                      _react2.default.createElement('li', { key: i, className: "text-slate-600 text-sm flex gap-3"   ,}
+                        , _react2.default.createElement('span', { className: "text-blue-500 font-bold" ,}, "•")
+                        , point
+                      )
+                    ))
+                  )
+                )
+              )
+            ))
+          )
+        )
+      )
+
+      /* Projects Section */
+      , _react2.default.createElement('section', { id: "projects", className: "py-20 bg-slate-900 text-white px-6"   ,}
+        , _react2.default.createElement('div', { className: "max-w-6xl mx-auto" ,}
+          , _react2.default.createElement('div', { className: "text-center mb-16" ,}
+            , _react2.default.createElement('h2', { className: "text-3xl font-bold" ,}, "Selected Project Highlights"  )
+            , _react2.default.createElement('div', { className: "w-20 h-1.5 bg-blue-500 mx-auto mt-4 rounded-full"     ,})
+          )
+
+          , _react2.default.createElement('div', { className: "grid grid-cols-1 md:grid-cols-3 gap-8"   ,}
+            , data.projects.map((proj, idx) => (
+              _react2.default.createElement(_framermotion.motion.div, { 
+                key: idx,
+                whileHover: { y: -10 },
+                className: "bg-slate-800 p-8 rounded-3xl border border-slate-700 hover:border-blue-500 transition-all group"       ,}
+
+                , _react2.default.createElement('div', { className: "flex justify-between items-start mb-6"   ,}
+                  , _react2.default.createElement('div', { className: "p-3 bg-blue-500/10 text-blue-400 rounded-2xl"   ,}
+                    , _react2.default.createElement(_lucidereact.ExternalLink, { className: "w-6 h-6" ,} )
+                  )
+                )
+                , _react2.default.createElement('h3', { className: "text-xl font-bold mb-3 group-hover:text-blue-400 transition-colors"    ,}, proj.title)
+                , _react2.default.createElement('p', { className: "text-slate-400 text-sm leading-relaxed mb-6"   ,}
+                  , proj.desc
+                )
+                , _react2.default.createElement('div', { className: "flex flex-wrap gap-2"  ,}
+                  , proj.stack.map((s, i) => (
+                    _react2.default.createElement('span', { key: i, className: "text-[10px] uppercase tracking-wider font-bold px-2 py-1 bg-slate-700 text-slate-300 rounded"        ,}
+                      , s
+                    )
+                  ))
+                )
+              )
+            ))
+          )
+        )
+      )
+
+      /* Education & Footer */
+      , _react2.default.createElement('footer', { className: "py-20 px-6 bg-white border-t border-slate-200"    ,}
+        , _react2.default.createElement('div', { className: "max-w-6xl mx-auto grid md:grid-cols-2 gap-12"    ,}
+          , _react2.default.createElement('div', null
+            , _react2.default.createElement('div', { className: "flex items-center gap-3 mb-4"   ,}
+              , _react2.default.createElement(_lucidereact.GraduationCap, { className: "w-6 h-6 text-blue-600"  ,} )
+              , _react2.default.createElement('h3', { className: "text-xl font-bold text-slate-900"  ,}, "Education")
+            )
+            , _react2.default.createElement('p', { className: "text-slate-600 leading-relaxed" ,}, data.education)
+          )
+          , _react2.default.createElement('div', { className: "md:text-right",}
+            , _react2.default.createElement('p', { className: "text-slate-400 text-sm" ,}, "© "
+               , new Date().getFullYear(), " " , data.name, ". All rights reserved."
+            )
+            , _react2.default.createElement('p', { className: "text-slate-400 text-sm mt-2"  ,}, "Built with React & Tailwind CSS"
+
+            )
+          )
+        )
+      )
+    )
+  );
+};
+
+exports. default = Portfolio;
+</script></head>
+  <body>
+  
+
+<div id="preview-app"></div></body></html>
